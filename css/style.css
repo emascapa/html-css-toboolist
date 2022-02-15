@@ -64,13 +64,16 @@ body {
     background-color: var(--color1);
     padding: 0.5rem;
     border-radius: 5px;
+    color: white;
 }
 
 #add_section {
     display: inline;
-    background-color: var(--color1);
+    background-color: white;
+    border: 1px solid lightgrey;
     padding: 0.5rem;
     border-radius: 5px;
+    color: lightgrey;
 }
 
 #task_section {
@@ -81,6 +84,14 @@ body {
     padding: 3rem;
     font-family: 'Rubik', sans-serif;
 
+}
+
+h3 {
+    margin-top: 1rem;
+}
+
+.task {
+    margin:0.2rem 0;
 }
 
 /* tick - not tick */
@@ -98,6 +109,19 @@ body {
     
 }
 
+.not_checked {
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    line-height: 1rem;
+    padding: 0 0.1rem;
+    color: lightcoral;
+    border: 1px solid lightcoral;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    
+}
+
 /* notification button */
 
 .notification {
@@ -109,4 +133,20 @@ body {
 
 .editoriale {
     background-color: var(--color1);
+}
+
+.mobile {
+    background-color: var(--color2);
+}
+
+.reunion {
+    background-color: var(--color3);
+}
+
+.pizza {
+    background-color: var(--color4);
+}
+
+.ananas {
+    background-color: var(--color5);
 }
