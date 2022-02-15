@@ -20,11 +20,14 @@ body {
 
 #site_header {
     background-color: var(--theme_color);
+    line-height: 100px;
+    height: 100px;
 }
 
 .logo {
     display: inline;
-    height: 6rem;
+    height: 5rem;
+    vertical-align: middle;
 }
 
 .logo_title {
@@ -33,6 +36,7 @@ body {
     vertical-align: middle;
     font-size: 2rem;
     font-family: 'Rubik', sans-serif;
+    vertical-align: middle;
 }
 
 /*
@@ -82,13 +86,27 @@ body {
 /* tick - not tick */
 
 .checked {
-    display: inline;
+    display: inline-block;
     height: 1rem;
     width: 1rem;
+    line-height: 1rem;
+    padding: 0 0.1rem;
     color: lightgreen;
     border: 1px solid lightgreen;
     border-radius: 50%;
     font-size: 0.75rem;
     
-    
+}
+
+/* notification button */
+
+.notification {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    border-radius: 8px;
+    font-size: 0.6rem;
+}
+
+.editoriale {
+    background-color: var(--color1);
 }
