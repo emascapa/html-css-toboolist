@@ -1,0 +1,31 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg_color: #F6F8F9;
+    --color1: #14AAF5;
+    --color2: #AB5DE6;
+    --color3: #2CC6AB;
+    --color4: #FF9B00;
+    --color5: #EC4A9D;
+    --color6: #A3D116;
+}
+
+.logo {
+    display: inline;
+    height: 6rem;
+}
+
+.logo_title {
+    display: inline;
+    line-height: 6rem;
+    vertical-align: middle;
+}
+
+#site_main {
+    height: 1000px;
+    width: auto;
+    background-color: var(--bg_color);
+}
