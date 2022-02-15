@@ -129,6 +129,8 @@ h3 {
     padding: 0.3rem 0.7rem;
     border-radius: 8px;
     font-size: 0.6rem;
+    color: white;
+    font-weight: bold;
 }
 
 .editoriale {
