@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap" rel="stylesheet">
+
     <title>ToBoolist</title>
 </head>
 <body>
-    <!--  -->
+    <!-- Banner del sito con logo e scritta -->
     <header id="site_header">
         <div class="banner">
             <img src="https://yt3.ggpht.com/ytc/AKedOLTO2XVhtyMr24Dnz6QJ-Lsj_05XHim-qMoF6PRc=s900-c-k-c0x00ffffff-no-rj" alt="ToBoolist Logo" class="logo">
@@ -17,16 +21,27 @@
         </div>
     </header>
 
-    <!--  -->
+    <!-- Main content of the website -->
     <main id="site_main">
-        <!--  -->
-        <section id="site_buttons"></section>
-        <!--  -->
-        <section id="newtask"></section>
-        <!--  -->
-        <section id="today"></section>
-        <!--  -->
-        <section id="upcoming"></section>
+        <!-- buttons section -->
+        <section id="site_buttons">
+            <div id="add_task">Add Task</div>
+            <div id="add_section">Add Section</div>
+        </section>
+
+        <!-- task section begins here -->
+        <section id="task_section">
+            <!--  -->
+            <section id="newtask">
+                <h3>&#x25BC; New Tasks</h3>
+                <div class="checked"></div>
+            </section>
+            <!--  -->
+            <section id="today"></section>
+            <!--  -->
+            <section id="upcoming"></section>
+        </section>
+
     </main>
 
     

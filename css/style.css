@@ -1,5 +1,5 @@
 * {
-    border: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -11,6 +11,15 @@
     --color4: #FF9B00;
     --color5: #EC4A9D;
     --color6: #A3D116;
+    --theme_color: #FFFFFF;
+}
+
+body {
+    background-color: var(--bg_color);
+}
+
+#site_header {
+    background-color: var(--theme_color);
 }
 
 .logo {
@@ -20,12 +29,52 @@
 
 .logo_title {
     display: inline;
-    line-height: 6rem;
+    line-height: 3rem;
     vertical-align: middle;
+    font-size: 2rem;
+    font-family: 'Rubik', sans-serif;
 }
 
+/*
 #site_main {
-    height: 1000px;
-    width: auto;
-    background-color: var(--bg_color);
+    width: 60%;
+    margin: 2rem auto;
+    background-color: red;
+    border-radius: 5px;
+}
+*/
+
+
+#site_buttons {
+    width: 60%;
+    margin: 2rem auto 0;
+    background-color: red;
+    border-radius: 5px 5px 0 0;
+    padding: 1.5rem 3rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+#add_task {
+    display: inline;
+    background-color: var(--color1);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#add_section {
+    display: inline;
+    background-color: var(--color1);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#task_section {
+    width: 60%;
+    margin: 2px auto 2rem;
+    background-color: red;
+    border-radius: 0 0 5px 5px;
+    padding: 3rem;
+    font-family: 'Rubik', sans-serif;
+
 }
